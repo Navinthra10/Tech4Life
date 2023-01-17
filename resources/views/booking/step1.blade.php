@@ -227,24 +227,17 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
                     <h2 class="text-white mb-4">SP4LIFE</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus illo ad quo sunt maiores,
-                        sint nostrum omnis eaque cumque dolorum.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p>SP4Life is a state-of-the-art sport court booking system designed to make it easy for players to reserve courts in UTM. Whether you're looking to play basketball, tennis, or any other sport, SP4Life has you covered. With its user-friendly interface and intuitive navigation, you can easily find available courts in just a few clicks. Experience the convenience and ease of SP4Life, and book your court today!</p>
                 </div>
 
                 <div class="col-lg-5 col-md-5 mb-5 mb-lg-0">
                     <div class="footer-widget">
                         <h4 class="mb-4 text-white letter-spacing text-uppercase">Quick Links</h4>
                         <ul class="list-unstyled footer-menu lh-40 mb-0">
-                            <li><a href="{{ 'aboutus' }}"><i class="ti-angle-double-right mr-2"></i>About Us</a>
-                            </li>
-                            <li><a href="{{ 'sport' }}"><i class="ti-angle-double-right mr-2"></i>Sport</a>
-                            </li>
-                            <li><a href="{{ 'booking' }}"><i class="ti-angle-double-right mr-2"></i>Booking</a>
-                            </li>
-                            <li><a href="{{ 'contactus' }}"><i class="ti-angle-double-right mr-2"></i>Contact
-                                    us</a></li>
+                            <li><a href="{{('aboutus')}}"><i class="ti-angle-double-right mr-2"></i>About Us</a></li>
+                            <li><a href="{{('sport')}}"><i class="ti-angle-double-right mr-2"></i>Sport</a></li>
+                            <li><a href="{{('booking')}}"><i class="ti-angle-double-right mr-2"></i>Booking</a></li>
+                            <li><a href="{{('contactus')}}"><i class="ti-angle-double-right mr-2"></i>Contact us</a></li>
                         </ul>
                     </div>
                 </div>

@@ -106,7 +106,7 @@
 				<div class="section-title">
 					<div class="divider mb-3"></div>
 					<h2>Courts List</h2>
-					<p>Take A Look On Available Courts (price based on per hour)</p>
+					<p>Take A Look On Available Courts</p>
 				</div>
 			</div>
 		</div>
@@ -119,7 +119,6 @@
 					    <div class="card-body">
 						    <a href="{{ route('court.show', $court->id) }}"><h4 class="font-secondary mb-0">{{ $court->name }}</h4></a>
                             <p>{{ $court->description }}</p>
-                            <h4>RM {{ ($court->price) }}</h4>
 					    </div>
 				    </div>
                 </div>
@@ -136,9 +135,7 @@
 		<div class="row">
 			<div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
 				<h2 class="text-white mb-4">SP4LIFE</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus illo ad quo sunt maiores, sint nostrum omnis eaque cumque dolorum.</p>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>SP4Life is a state-of-the-art sport court booking system designed to make it easy for players to reserve courts in UTM. Whether you're looking to play basketball, tennis, or any other sport, SP4Life has you covered. With its user-friendly interface and intuitive navigation, you can easily find available courts in just a few clicks. Experience the convenience and ease of SP4Life, and book your court today!</p>
 			</div>
 			<div class="col-lg-5 col-md-5 mb-5 mb-lg-0">
               <div class="footer-widget">

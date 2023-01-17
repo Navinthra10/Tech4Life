@@ -108,7 +108,7 @@
 				<div class="section-title">
 					<div class="divider mb-3"></div>
 					<h2>Sport Facilities</h2>
-					<p>We offer booking service for 3 UTM sports facilities.</p>
+					<p>We offer booking service for UTM sports facilities.</p>
 				</div>
 			</div>
 		</div>
@@ -116,44 +116,44 @@
 		<div class="row no-gutters">
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="text-center  px-4 py-5 hover-style-1">
-					<i class="icofont-gym-alt-2 text-lg text-color"></i>
-					<h4 class="mt-3 mb-4 text-uppercase">WEIGHT LIFTING</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, molestias.</p>
+					<i class="icofont-football text-lg text-color"></i>
+					<h4 class="mt-3 mb-4 text-uppercase">Football</h4>
+					<p>Football, also known as soccer, is widely considered as the most popular sport in the world.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="text-center  px-4 py-5 hover-style-1">
-					<i class="icofont-cycling-alt text-lg text-color"></i>
-					<h4 class="mt-3 mb-4 text-uppercase">Cycling</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, molestias.</p>
+					<i class="icofont-tennis text-lg text-color"></i>
+					<h4 class="mt-3 mb-4 text-uppercase">Tennis</h4>
+					<p>Tennis is a popular racket sport played by individuals or teams of two.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="text-center  px-4 py-5 hover-style-1">
-					<i class="icofont-gym-alt-3 text-lg text-color"></i>
-					<h4 class="mt-3 mb-4 text-uppercase">YOGA MEDIDATION</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, molestias.</p>
+					<i class="icofont-badminton-birdie text-lg text-color"></i>
+					<h4 class="mt-3 mb-4 text-uppercase">Badminton</h4>
+					<p>Badminton is a racket sport played by individuals or pairs.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="text-center  px-4 py-5 hover-style-1">
-					<i class="icofont-muscle text-lg text-color"></i>
-					<h4 class="mt-3 mb-4 text-uppercase">Building body</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, molestias.</p>
+					<i class="icofont-volleyball-alt text-lg text-color"></i>
+					<h4 class="mt-3 mb-4 text-uppercase">Volleyball</h4>
+					<p>Volleyball is a team sport where players hit a ball back and forth over a high net.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="text-center  px-4 py-5 hover-style-1">
-					<i class="icofont-dumbbell text-lg text-color"></i>
-					<h4 class="mt-3 mb-4 text-uppercase">Fitness Track</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, molestias.</p>
+					<i class="icofont-football-american text-lg text-color"></i>
+					<h4 class="mt-3 mb-4 text-uppercase">Rugby</h4>
+					<p>Rugby is a team sport, where players carry, pass, kick, and ground an oval-shaped ball. </p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="text-center  px-4 py-5 hover-style-1">
-					<i class="icofont-gym text-lg text-color"></i>
-					<h4 class="mt-3 mb-4 text-uppercase">Fitness</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, molestias.</p>
+					<i class="icofont-basketball text-lg text-color"></i>
+					<h4 class="mt-3 mb-4 text-uppercase">Basketball</h4>
+					<p>Basketball is a fast-paced team sport where players use their hands to shoot a ball into a raised basket.</p>
 				</div>
 			</div>
 		</div>
@@ -219,79 +219,7 @@
 		</div>
 	</div>
 </section>
-
 <!-- Section Gallery END -->
-
-<!-- Section Course Start -->
-<section class="section course bg-gray">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-8 text-center">
-				<div class="section-title">
-					<div class="divider mb-3"></div>
-					<h2>Booking Courts</h2>
-					<p>We offer the best court for doing sports activities.</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-lg-3 col-md-6">
-				<div class="card border-0 rounded-0 p-0 mb-5 mb-lg-0 shadow-sm">
-					<img src="images/gallery/course-1.jpg" alt="" class="img-fluid">
-
-					<div class="card-body">
-						<a href="course-single.html"><h4 class="font-secondary mb-0">Football</h4></a>
-						<p class=" mb-2">Location: </p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-3 col-md-6">
-				<div class="card border-0 rounded-0 p-0 mb-5 mb-lg-0 shadow-sm">
-					<img src="images/gallery/course-2.jpg" alt="" class="img-fluid">
-
-					<div class="card-body">
-						<a href="course-single.html"><h4 class="font-secondary mb-0">Badminton</h4></a>
-						<p class="mb-2">Location:</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-3 col-md-6">
-				<div class="card border-0 rounded-0 p-0 mb-5 mb-lg-0 shadow-sm">
-					<img src="images/gallery/course-3.jpg" alt="" class="img-fluid">
-
-					<div class="card-body">
-						<a href="course-single.html"><h4 class="font-secondary mb-0">Squash</h4></a>
-						<p class=" mb-2">Location:</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="card border-0 rounded-0 p-0 mb-5 mb-lg-0 shadow-sm">
-					<img src="images/gallery/course-2.jpg" alt="" class="img-fluid">
-
-					<div class="card-body">
-						<a href="course-single.html"><h4 class="font-secondary mb-0">Volleyball</h4></a>
-						<p class=" mb-2">Location:</p>
-					</div>
-				</div>
-			</div>
-
-		</div>
-		<div class="row justify-content-center">
-			<div class="col-lg-8">
-				<div class="mt-5 text-center">
-					<a href="{{('court')}}" class="btn btn-main">See all our courts</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- Section Course ENd -->
-
-
 
 <!-- Section Footer Start -->
 <!-- footer Start -->
@@ -300,9 +228,7 @@
 		<div class="row">
 			<div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
 				<h2 class="text-white mb-4">SP4LIFE</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus illo ad quo sunt maiores, sint nostrum omnis eaque cumque dolorum.</p>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<p>SP4Life is a state-of-the-art sport court booking system designed to make it easy for players to reserve courts in UTM. Whether you're looking to play basketball, tennis, or any other sport, SP4Life has you covered. With its user-friendly interface and intuitive navigation, you can easily find available courts in just a few clicks. Experience the convenience and ease of SP4Life, and book your court today!</p>
 			</div>
 
 			<div class="col-lg-5 col-md-5 mb-5 mb-lg-0">
