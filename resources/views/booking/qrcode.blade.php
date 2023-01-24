@@ -32,7 +32,7 @@
 <!-- Header Start -->
 <nav class="navbar navbar-expand-lg navigation fixed-top" id="navbar">
 	<div class="container-fluid">
-		<a class="navbar-brand" href={{('welcome')}}>
+		<a class="navbar-brand" href="{{'/'}}">
 			<h2 class="text-white text-capitalize"></i>SP4<span class="text-color">Life</span></h2>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsid"
@@ -68,7 +68,10 @@
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="{{('dashboard')}}">Dashboard</a></li>
             <li><a class="dropdown-item" href="{{route('profile.edit')}}">Profile</a></li>
-            <li><a class="dropdown-item" href="{{('logout')}}">Logout</a></li>
+            <li><form method="POST" action="{{ route('logout') }}">
+                @csrf
+             <button type="submit" class="btn-primary" style="margin-left: 25px; background-color: #201c1c; border:none;">Logout</button>
+            </form></li>
         </ul>
             </li>
             </div>
@@ -155,10 +158,10 @@
 				<div class="footer-widget">
 					<h4 class="mb-4 text-white letter-spacing text-uppercase">Quick Links</h4>
 					<ul class="list-unstyled footer-menu lh-40 mb-0">
-                        <li><a href="{{('aboutus')}}"><i class="ti-angle-double-right mr-2"></i>About Us</a></li>
-                        <li><a href="{{('sport')}}"><i class="ti-angle-double-right mr-2"></i>Sport</a></li>
-                        <li><a href="{{('booking')}}"><i class="ti-angle-double-right mr-2"></i>Booking</a></li>
-                        <li><a href="{{('contactus')}}"><i class="ti-angle-double-right mr-2"></i>Contact us</a></li>
+                        <li><a href="{{route('aboutus')}}"><i class="ti-angle-double-right mr-2"></i>About Us</a></li>
+                        <li><a href="{{route('sport.index')}}"><i class="ti-angle-double-right mr-2"></i>Sport</a></li>
+                        <li><a href="{{route('booking.step.one')}}"><i class="ti-angle-double-right mr-2"></i>Booking</a></li>
+                        <li><a href="{{route('contactus')}}"><i class="ti-angle-double-right mr-2"></i>Contact us</a></li>
 					</ul>
 				</div>
 			</div>

@@ -72,7 +72,10 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="{{ 'dashboard' }}">Dashboard</a></li>
                                 <li><a class="dropdown-item" href="{{ route('profile.edit') }}">Profile</a></li>
-                                <li><a class="dropdown-item" href="{{ 'logout' }}">Logout</a></li>
+                                <li><form method="POST" action="{{ route('logout') }}">
+                                    @csrf
+                                 <button type="submit" class="btn-primary" style="margin-left: 25px; background-color: #201c1c; border:none;">Logout</button>
+                                </form></li>
                             </ul>
                         </li>
                     </div>

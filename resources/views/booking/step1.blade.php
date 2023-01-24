@@ -72,7 +72,10 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="{{ 'dashboard' }}">Dashboard</a></li>
                                 <li><a class="dropdown-item" href="{{ route('profile.edit') }}">Profile</a></li>
-                                <li><a class="dropdown-item" href="{{ 'logout' }}">Logout</a></li>
+                                <li><form method="POST" action="{{ route('logout') }}">
+                                    @csrf
+                                 <button type="submit" class="btn-primary" style="margin-left: 25px; background-color: #201c1c; border:none;">Logout</button>
+                                </form></li>
                             </ul>
                         </li>
                     </div>
@@ -217,6 +220,13 @@
                     <button type="submit" class="btn btn-main">Submit</button>
                 </form>
             </div>
+            <div class="row justify-content-center pb-5">
+                <div class="col-lg-9 text-center">
+                  <div class="text-center">
+                    <a href="{{route('booking.show')}}"><button class="btn btn-main mt-3 " type="">BOOKING HISTORY</button></a>
+                  </div>
+                </div>
+              </div>
         </section>
         <!-- Section Course ENd -->
     @endif
